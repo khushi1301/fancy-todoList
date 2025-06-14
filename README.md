@@ -48,10 +48,10 @@ yarn dev
 ```
 
 🌱 Future Improvements
-• Backend integration with Node.js + MongoDB
-• User login and authentication
-• Drag-and-drop task sorting
-• Due dates and task reminders
+- Backend integration with Node.js + MongoDB
+- User login and authentication
+- Drag-and-drop task sorting
+- Due dates and task reminders
 
 
 🙋‍♀️ Author
