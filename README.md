@@ -1,24 +1,25 @@
 # 📝 Fancy Todo App
 
-A full-featured Todo List application built with **ReactJS**, **Material UI**, and SWR. This project supports creating categorized todo lists, adding tasks, and managing their states — all in a clean and responsive UI.
+A full-featured Todo List application built with **ReactJS**, **Material UI**, and **SWR**. This project allows users to create categorized todo lists, manage tasks, and interact with a clean and responsive UI — all without needing a backend.
 
 ## 🚀 Features
 
 - Create, update, and delete todo lists
-- Add, toggle, and remove tasks within each list
+- Add, toggle, update, and delete tasks within each list
 - Icon search and selection for each list
-- Optimistic UI updates with SWR
-- Modular and scalable component structure using custom hooks and context
-- Fully responsive and styled with Material UI
+- Optimistic UI updates using SWR
+- Modular architecture using custom hooks and Context API
+- Fully responsive design with Material UI
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend**: ReactJS, Material UI
-- **Data Management**: React Context API, SWR
-- **Icons**: MUI Icons with live search and preview
-- **API Simulation**: Custom `fetcher` and `putter` functions to mimic real API behavior
+- **Frontend**: ReactJS
+- **UI Framework**: Material UI
+- **State & Data Management**: Context API, SWR
+- **Icons**: MUI Icons
+- **API Layer**: Mocked using custom `fetcher` and `putter` functions
 
-> ⚠️ This project currently **does not use a backend**. All API interactions are simulated for frontend demonstration purposes.
+> ⚠️ **Note**: This project does not include a real backend. API operations are simulated for demonstration purposes only.
 
 ## 📦 Getting Started
 
@@ -29,23 +30,29 @@ A full-featured Todo List application built with **ReactJS**, **Material UI**, a
 
 ### Installation
 
-1. Clone the repository:
-
+```bash
+# Clone the repository
 git clone https://github.com/khushi1301/fancy-todoList.git
+cd fancy-todoList
 
-cd fancy-todo-list
-
-2. Install dependencies:
-
+# Install dependencies
 npm install
 # or
 yarn install
 
-3. Start the development server:
-
-npm start
+# Start the development server
+npm run dev
 # or
-yarn start
+yarn dev
+
+```
+
+🌱 Future Improvements
+• Backend integration with Node.js + MongoDB
+• User login and authentication
+• Drag-and-drop task sorting
+• Due dates and task reminders
 
 
-Open http://localhost:5173/ in your browser
+🙋‍♀️ Author
+Made with ❤️ by Khushi Gupta
