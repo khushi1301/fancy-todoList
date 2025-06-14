@@ -33,7 +33,6 @@ A full-featured Todo List application built with **ReactJS**, **Material UI**, a
 ```bash
 # Clone the repository
 git clone https://github.com/khushi1301/fancy-todoList.git
-cd fancy-todoList
 
 # Install dependencies
 npm install
